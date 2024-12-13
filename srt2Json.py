@@ -55,7 +55,7 @@ def main():
     
     # 解析SRT文件
     subtitles = parse_srt(srt_file_path)
-    
+    print(subtitles)
     # 保存结果到JSON文件
     save_results_to_json(subtitles, output_file_path)
     
